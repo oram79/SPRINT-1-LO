@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: white;
+}
+  
+.mainbox {
+    width: 1390px;
+    height: 1036px; 
+    background-color: rgb(27, 133, 199);
+    border: 3px solid black;
+    margin: 20px;
+    text-align: left;
+}
+
+.headernav {
+    width: 700px;
+    height: 150px;
+    background-color: rgb(217, 217, 222); 
+    float: right;
+}
+
+.headernavlogo {
+    width: 276px;
+    height: 150px;
+    background-color: rgb(217, 217, 222);
+}
+
+.headernavtext {
+    width: 408px;
+    height: 150px;
+    float: right;
+    background-color: rgb(217, 217, 222);
+}
+
+h2{
+    font-size: 45pt;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family: Irish Grover;
+}
+
+h3{
+    font-size: 22pt;
+
+}
+
+nav {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+
+nav a:link {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15pt;
+    
+}
+  
+nav a:visited {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15pt;
+}
+  
+nav a:hover {
+    color: white;
+    background-color: gr;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15pt;
+}
+
+.bodybox {
+    margin-left: 200px;
+    margin-top: 50px;
+    padding-top: 50px;
+    height: 675px;
+    width: 1000px;
+    background-color: rgb(176, 220, 237);
+    border-radius: 75pt;
+}
+
+.bodytextbox {
+    margin-left: 175px;
+    height: 125px;
+    width: 650px;
+    background-color: rgb(188, 183, 183);
+    border-radius: 20pt;
+    align-content: center;
+}
+
+
