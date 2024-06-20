@@ -38,15 +38,24 @@ body {
 }
 
 h2{
-    font-size: 45pt;
-    margin-left: 20px;
+    font-size: 40pt;
+    margin-left: 40px;
     margin-top: 5px;
-    font-family: Irish Grover;
+    font-family: fantasy, Papyrus, sans-serif;
 }
 
 h3{
-    font-size: 22pt;
+    font-size: 25pt;
+    margin-left: 25px;
+    font-family: fantasy, Papyrus, sans-serif;
+}
 
+h4{
+    font-size: 20pt;
+    margin-left: 25px;
+    padding-top: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 nav {
@@ -55,7 +64,6 @@ nav {
     font-size: 30px;
     
 }
-
 
 nav a:link {
     color: black;
@@ -84,19 +92,47 @@ nav a:hover {
     margin-left: 200px;
     margin-top: 50px;
     padding-top: 50px;
-    height: 675px;
+    height: 800px;
     width: 1000px;
     background-color: rgb(176, 220, 237);
     border-radius: 75pt;
 }
 
 .bodytextbox {
-    margin-left: 175px;
-    height: 125px;
-    width: 650px;
+    margin-left: 125px;
+    height: 150px;
+    width: 750px;
     background-color: rgb(188, 183, 183);
-    border-radius: 20pt;
+    border-radius: 45pt;
     align-content: center;
 }
 
+.infobodybox {
+    height: 300px;
+    width: 400px;
+  
+    margin-left: 325px;
+    background-color: rgb(176, 220, 237);
+}
 
+.picbox1 {
+    height: 200px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 50pt;
+    background-color: pink;
+}
+
+.picbox2 {
+    height: 200px;
+    width: 300px;
+    margin-top: 50px;
+    border-radius: 50pt;
+    background-color: pink;
+    float: right;
+}
+
+img{
+    border-radius: 25pt;
+}
