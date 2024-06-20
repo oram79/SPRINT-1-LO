@@ -46,7 +46,7 @@ h2{
 }
 
 h3{
-    font-size: 25pt;
+    font-size: 23pt;
     margin-left: 25px;
     font-family: fantasy, Papyrus, sans-serif;
 }
@@ -148,6 +148,12 @@ button {
     border-radius: 50pt;
     background-color: pink;
     float: right;
+}
+
+.menuminibox {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(176, 220, 237);
 }
 
 img{
