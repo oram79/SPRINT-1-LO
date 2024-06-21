@@ -7,10 +7,29 @@
 body {
     background-color: white;
 }
-  
+
 .mainbox {
     width: 1390px;
-    height: 1800px; 
+    height: 1100px; 
+    background-color: rgb(27, 133, 199);
+    border: 5px solid black; 
+    margin: 20px;
+    text-align: left;
+}
+
+
+.ordermainbox {
+    width: 1390px;
+    height: 1110px; 
+    background-color: rgb(27, 133, 199);
+    border: 5px solid black;
+    margin: 20px;
+    text-align: left;
+}
+  
+.menumainbox {
+    width: 1390px;
+    height: 1940px; 
     background-color: rgb(27, 133, 199);
     border: 5px solid black;
     margin: 20px;
@@ -49,10 +68,8 @@ h3{
 }
 
 h4{
-    align-content: center;
     font-size: 20pt;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
 }
 
 
@@ -167,11 +184,10 @@ img{
     margin-top: 30px;
     padding-top: 40px;
     text-align: center;
-    align-self: center;
 }
 
 .menubox2 {
-    height: 500px;
+    height: 550px;
     width: 375px;
     background-color: rgb(176, 220, 237);
     border-radius: 20pt;
@@ -182,6 +198,33 @@ img{
     text-align: center;
 }
 
+.happyhourbox {
+    width: 420px;
+    height: 220px;
+    border-radius: 20pt;
+    background-color: rgb(217, 217, 222); 
+    margin-top: 1325px;
+    margin-left: 495px;
+    text-align: center;
+}
+
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footerbox {
+    margin-top: 80px;
+    width: 1380px;
+    padding-top: 5pxs;
+    height: 119px;
+    text-align: center;
+    background-color: rgb(217, 217, 222); 
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20pt;
 }
