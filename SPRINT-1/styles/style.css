@@ -10,7 +10,7 @@ body {
   
 .mainbox {
     width: 1390px;
-    height: 1036px; 
+    height: 1400px; 
     background-color: rgb(27, 133, 199);
     border: 5px solid black;
     margin: 20px;
@@ -38,23 +38,19 @@ body {
     background-color: rgb(217, 217, 222);
 }
 
-h2{
+h2 {
     font-size: 40pt;
-    margin-left: 40px;
-    margin-top: 5px;
     font-family: fantasy, Papyrus, sans-serif;
 }
 
 h3{
     font-size: 23pt;
-    margin-left: 25px;
     font-family: fantasy, Papyrus, sans-serif;
 }
 
 h4{
     align-content: center;
     font-size: 20pt;
-    margin-left: 25px;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
@@ -120,6 +116,7 @@ button {
     background-color: rgb(188, 183, 183);
     border-radius: 45pt;
     align-content: center;
+    padding-left: 20px;
 }
 
 .infobodybox {
@@ -158,4 +155,28 @@ button {
 
 img{
     border-radius: 25pt;
+}
+
+.menubox {
+    height: 375px;
+    width: 375px;
+    background-color: rgb(176, 220, 237);
+    border-radius: 20pt;
+    float: left;
+    margin-left: 70px;
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.menubox2 {
+    height: 375px;
+    width: 375px;
+    background-color: rgb(176, 220, 237);
+    border-radius: 20pt;
+    float: left;
+    margin-left: 515px;
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-top: 40px;
 }
