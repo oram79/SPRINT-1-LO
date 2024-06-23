@@ -10,7 +10,7 @@ body {
 
 .mainbox {
     width: 1390px;
-    height: 1100px; 
+    height: 1209px; 
     background-color: rgb(27, 133, 199);
     border: 5px solid black; 
     margin: 20px;
@@ -20,7 +20,7 @@ body {
 
 .ordermainbox {
     width: 1390px;
-    height: 1110px; 
+    height: 1209px; 
     background-color: rgb(27, 133, 199);
     border: 5px solid black;
     margin: 20px;
@@ -212,10 +212,30 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.footerbox {
+.footerbox1 {
     margin-top: 80px;
     width: 1380px;
-    padding-top: 5pxs;
+    padding-top: 5px;
+    height: 119px;
+    text-align: center;
+    background-color: rgb(217, 217, 222); 
+    float: left;
+}
+
+.footerbox2 {
+    margin-top: 80px;
+    width: 1380px;
+    padding-top: 5px;
+    height: 119px;
+    text-align: center;
+    background-color: rgb(217, 217, 222); 
+    float: left;
+}
+
+.footerbox3 {
+    margin-top: 380px;
+    width: 1380px;
+    padding-top: 5px;
     height: 119px;
     text-align: center;
     background-color: rgb(217, 217, 222); 
@@ -227,4 +247,13 @@ a {
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20pt;
+}
+
+.ordermiddlebox {
+    height: 500px;
+    width: 850px;
+    background-color: rgb(176, 220, 237);
+    border-radius: 70pt;
+    margin-left: 275px;
+    margin-top: 50px;
 }
