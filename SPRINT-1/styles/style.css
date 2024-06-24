@@ -47,7 +47,7 @@ body {
     width: 276px;
     height: 150px;
     background-color: rgb(217, 217, 222);
-    
+    padding-bottom: 30pt;
 }
 
 .headernavtext {
@@ -250,10 +250,34 @@ a {
 }
 
 .ordermiddlebox {
-    height: 500px;
-    width: 850px;
+    height: 550px;
+    width: 1000px;
     background-color: rgb(176, 220, 237);
     border-radius: 70pt;
-    margin-left: 275px;
+    margin-left: 200px;
     margin-top: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.orderfoodbox {
+    height: 80px;
+    width: 355px;
+    background-color: rgb(27, 133, 199);
+    border-radius: 20pt;
+    float: left;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.orderfoodbox2 {
+    height: 80px;
+    width: 355px;
+    background-color: rgb(27, 133, 199);
+    border-radius: 20pt;
+    float: left;
+    text-align: center;
+    margin-left: 270px;
+    margin-top: 30px;
 }
