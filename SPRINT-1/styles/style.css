@@ -294,13 +294,14 @@ a {
     border-radius: 50px;
 }
 
+
 .fontandsize {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 31.5px;
 }
 
 .ordernowbox {
-    height: 150px;
+    height: 125px;
     width: 415px;
     background-color: rgb(27, 133, 199);
     margin-top: 40px;
@@ -315,16 +316,27 @@ h6 {
 .orderinfobox {
     width: 175px;
     height: 75px;
-    background-color: pink;
+    background-color: rgb(27, 133, 199);
     float: left;
-    margin-left: 625px;
+    margin-left: 600px;
 }
 
-input[type="text"]{
-    width: 125px;
-    height: 25px;
-    font-size: 50pt;
+.orderinfobox label {
+    display: block; 
+    margin-bottom: 5px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
 }
+
+.orderinfobox input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
 
 
 
