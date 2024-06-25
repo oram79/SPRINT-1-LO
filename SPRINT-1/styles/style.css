@@ -311,3 +311,20 @@ h6 {
     font-size: 45pt;
     color: white;
 }
+
+.orderinfobox {
+    width: 175px;
+    height: 75px;
+    background-color: pink;
+    float: left;
+    margin-left: 625px;
+}
+
+input[type="text"]{
+    width: 125px;
+    height: 25px;
+    font-size: 50pt;
+}
+
+
+
