@@ -243,7 +243,7 @@ p {
 }
 
 .footerbox3 {
-    margin-top: 30px;
+    margin-top: 58px;
     width: 1380px;
     padding-top: 5px;
     height: 119px;
@@ -279,7 +279,7 @@ a {
 
 .orderfoodbox {
     height: 80px;
-    width: 355px;
+    width: 385px;
     background-color: rgb(27, 133, 199);
     border-radius: 20pt;
     float: left;
@@ -290,7 +290,7 @@ a {
 
 .orderfoodbox2 {
     height: 80px;
-    width: 355px;
+    width: 385px;
     background-color: rgb(27, 133, 199);
     border-radius: 20pt;
     float: left;
@@ -303,12 +303,61 @@ a {
     width: 40px;
     height: 35px;
     border-radius: 8px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.orderfoodbox p {
+    margin: 0;
+    float: left;
+    margin-top: 28px;
+    margin-left: 20px;
+    color: white;
+}
+
+.yesornobox2 {
+    width: 40px;
+    height: 35px;
+    border-radius: 8px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.orderfoodbox2 p {
+    margin: 0;
+    float: left;
+    margin-top: 28px;
+    margin-left: 20px;
+    color: white;
 }
 
 .quantitybox {
     width: 84px;
     height: 23px;
     border-radius: 50px;
+    margin-top: 25px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+}
+
+.quantitybox2 {
+    width: 84px;
+    height: 23px;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+}
+
+.orderfoodbox label,
+.orderfoodbox input,
+.orderfoodbox p {
+    margin-bottom: 5px;
 }
 
 
@@ -318,37 +367,39 @@ a {
 }
 
 .ordernowbox {
-    height: 125px;
-    width: 415px;
-    background-color: rgb(27, 133, 199);
-    margin-top: 40px;
-    margin-left: 525px;
+    height: 100px;
+    width: 370px;
+    background-color: rgb(176, 220, 237);
+    margin-top: 35px;
+    margin-left: 510px;
+    border-radius: 20pt;
+    text-align: center;
 }
 
-h6 {
-    font-size: 45pt;
-    color: white;
+.ordernowbox h6 {
+    font-size: 50pt;
+    color: black
 }
 
 .orderinfobox {
-    width: 175px;
+    width: 210px;
     height: 75px;
     background-color: rgb(27, 133, 199);
     float: left;
-    margin-left: 600px;
+    margin-left: 560px;
 }
 
 .orderinfobox label {
     display: block; 
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     color: white;
     font-size: 30px;
-  
     border-radius: 20pt;
+    margin-top: 20px;
 }
 
 .orderinfobox input[type="text"] {
-    width: 110%;
+    width: 130%;
     padding: 8px;
     font-size: 20px;
     border: 1px solid #ccc;
@@ -359,8 +410,9 @@ h6 {
 .orderinfobox button {
     color: black;
     background-color: white;
-    margin-right: 90px;
-
+    float: left;
+    margin-left: 35px;
+    margin-top: 20px;
 }
 
 .orderinfobox h2 {
