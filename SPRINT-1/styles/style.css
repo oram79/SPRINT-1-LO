@@ -2,7 +2,17 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-  }
+}
+
+@font-face {
+    font-family: runners ;
+    src: url(../Fonts/Black\ Runters.ttf);
+}
+
+@font-face {
+    font-family: chentalle ;
+    src: url(../Fonts/Chentalle.ttf);
+}
   
 body {
     background-color: white;
@@ -66,21 +76,24 @@ body {
     background-color: rgb(217, 217, 222);
 }
 
+.headernavtext h2 {
+    font-family: runners;
+}
+
 h2 {
     font-size: 40pt;
-    font-family: fantasy, Papyrus, sans-serif;
+    font-family: chentalle
 }
 
 h3{
     font-size: 23pt;
-    font-family: fantasy, Papyrus, sans-serif;
+    font-family: chentalle;
 }
 
 h4{
     font-size: 20pt;
-    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: chentelle
 }
-
 
 nav {
     margin-top: 30px;
@@ -152,16 +165,20 @@ button {
 .infobodybox {
     height: 300px;
     width: 400px;
-    margin-top: 20px;
-    margin-left: 315px;
+    margin-top: 15px;
+    margin-left: 300px;
     background-color: rgb(176, 220, 237);
+    text-align: center;
+}
+
+.infobodybox h4 {
+    font-size: 15pt;
 }
 
 .picbox1 {
     height: 200px;
     width: 300px;
-    margin-left: 125px;
-    margin-top: 50px;
+    margin-left: 75px;
     border-radius: 50pt;
     background-color: pink;
     float: left;
@@ -170,8 +187,7 @@ button {
 .picbox2 {
     height: 200px;
     width: 300px;
-    margin-right: 125px;
-    margin-top: 50px;
+    margin-right: 75px;
     border-radius: 50pt;
     background-color: pink;
     float: right;
@@ -219,7 +235,7 @@ button {
 }
 
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: chentalle;
 }
 
 .footerbox1 {
@@ -255,7 +271,7 @@ p {
 a {
     text-decoration: none;
     color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: chentalle;
     font-size: 20pt;
 }
 
@@ -273,7 +289,7 @@ a {
 .ordermiddlebox h5 {
     margin-top: 460px;
     margin-left: 215px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: chentalle;
     font-size: 15pt;
 }
 
@@ -362,7 +378,7 @@ a {
 
 
 .fontandsize {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: chentalle;
     font-size: 31.5px;
 }
 
@@ -431,7 +447,7 @@ a {
 }
 
 .thankyoubox h3 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: runners;
     color: black
 }
 
