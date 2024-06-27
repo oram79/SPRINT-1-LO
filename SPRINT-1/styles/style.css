@@ -20,7 +20,7 @@ body {
 
 .mainbox {
     width: 1390px;
-    height: 1209px; 
+    height: 1220px; 
     background-color: rgb(27, 133, 199);
     border: 5px solid black; 
     margin: 20px;
@@ -29,7 +29,7 @@ body {
   
 .menumainbox {
     width: 1390px;
-    height: 1940px; 
+    height: 2005px; 
     background-color: rgb(27, 133, 199);
     border: 5px solid black;
     margin: 20px;
@@ -38,7 +38,7 @@ body {
 
 .ordermainbox {
     width: 1390px;
-    height: 1500px; 
+    height: 1520px; 
     background-color: rgb(27, 133, 199);
     border: 5px solid black;
     margin: 20px;
@@ -74,6 +74,7 @@ body {
     height: 150px;
     float: right;
     background-color: rgb(217, 217, 222);
+    padding-top: 15px;
 }
 
 .headernavtext h2 {
@@ -132,6 +133,7 @@ img {
 button {
     height: 50px;
     width: 200px;
+    padding-top: 5px;
     background-color: rgb(27, 133, 199);
     margin: 10pt;
     border-radius: 10pt;
@@ -229,7 +231,7 @@ button {
     height: 220px;
     border-radius: 20pt;
     background-color: rgb(217, 217, 222); 
-    margin-top: 1325px;
+    margin-top: 1375px;
     margin-left: 495px;
     text-align: center;
 }
@@ -242,7 +244,7 @@ p {
     margin-top: 80px;
     width: 1380px;
     padding-top: 5px;
-    height: 119px;
+    height: 130px;
     text-align: center;
     background-color: rgb(217, 217, 222); 
     float: left;
@@ -252,17 +254,17 @@ p {
     margin-top: 80px;
     width: 1380px;
     padding-top: 5px;
-    height: 119px;
+    height: 135px;
     text-align: center;
     background-color: rgb(217, 217, 222); 
     float: left;
 }
 
 .footerbox3 {
-    margin-top: 58px;
+    margin-top: 69px;
     width: 1380px;
     padding-top: 5px;
-    height: 119px;
+    height: 129px;
     text-align: center;
     background-color: rgb(217, 217, 222); 
     float: left;
@@ -390,6 +392,7 @@ a {
     margin-left: 510px;
     border-radius: 20pt;
     text-align: center;
+    padding-top: 10px;
 }
 
 .ordernowbox h6 {
