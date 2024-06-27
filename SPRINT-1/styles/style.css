@@ -2,17 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-
-@font-face {
-    font-family: runners ;
-    src: url(../Fonts/Black\ Runters.ttf);
-}
-
-@font-face {
-    font-family: chentalle ;
-    src: url(../Fonts/Chentalle.ttf);
-}
+  }
   
 body {
     background-color: white;
@@ -20,7 +10,7 @@ body {
 
 .mainbox {
     width: 1390px;
-    height: 1220px; 
+    height: 1209px; 
     background-color: rgb(27, 133, 199);
     border: 5px solid black; 
     margin: 20px;
@@ -29,7 +19,7 @@ body {
   
 .menumainbox {
     width: 1390px;
-    height: 2005px; 
+    height: 1940px; 
     background-color: rgb(27, 133, 199);
     border: 5px solid black;
     margin: 20px;
@@ -38,7 +28,7 @@ body {
 
 .ordermainbox {
     width: 1390px;
-    height: 1520px; 
+    height: 1500px; 
     background-color: rgb(27, 133, 199);
     border: 5px solid black;
     margin: 20px;
@@ -74,27 +64,23 @@ body {
     height: 150px;
     float: right;
     background-color: rgb(217, 217, 222);
-    padding-top: 15px;
-}
-
-.headernavtext h2 {
-    font-family: runners;
 }
 
 h2 {
     font-size: 40pt;
-    font-family: chentalle
+    font-family: fantasy, Papyrus, sans-serif;
 }
 
 h3{
     font-size: 23pt;
-    font-family: chentalle;
+    font-family: fantasy, Papyrus, sans-serif;
 }
 
 h4{
     font-size: 20pt;
-    font-family: chentelle
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 
 nav {
     margin-top: 30px;
@@ -133,7 +119,6 @@ img {
 button {
     height: 50px;
     width: 200px;
-    padding-top: 5px;
     background-color: rgb(27, 133, 199);
     margin: 10pt;
     border-radius: 10pt;
@@ -167,20 +152,16 @@ button {
 .infobodybox {
     height: 300px;
     width: 400px;
-    margin-top: 15px;
-    margin-left: 300px;
+    margin-top: 20px;
+    margin-left: 315px;
     background-color: rgb(176, 220, 237);
-    text-align: center;
-}
-
-.infobodybox h4 {
-    font-size: 15pt;
 }
 
 .picbox1 {
     height: 200px;
     width: 300px;
-    margin-left: 75px;
+    margin-left: 125px;
+    margin-top: 50px;
     border-radius: 50pt;
     background-color: pink;
     float: left;
@@ -189,7 +170,8 @@ button {
 .picbox2 {
     height: 200px;
     width: 300px;
-    margin-right: 75px;
+    margin-right: 125px;
+    margin-top: 50px;
     border-radius: 50pt;
     background-color: pink;
     float: right;
@@ -215,7 +197,7 @@ button {
 }
 
 .menubox2 {
-    height: 608px;
+    height: 550px;
     width: 375px;
     background-color: rgb(176, 220, 237);
     border-radius: 20pt;
@@ -231,20 +213,20 @@ button {
     height: 220px;
     border-radius: 20pt;
     background-color: rgb(217, 217, 222); 
-    margin-top: 1375px;
+    margin-top: 1325px;
     margin-left: 495px;
     text-align: center;
 }
 
 p {
-    font-family: chentalle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .footerbox1 {
     margin-top: 80px;
     width: 1380px;
     padding-top: 5px;
-    height: 130px;
+    height: 119px;
     text-align: center;
     background-color: rgb(217, 217, 222); 
     float: left;
@@ -254,17 +236,17 @@ p {
     margin-top: 80px;
     width: 1380px;
     padding-top: 5px;
-    height: 135px;
+    height: 119px;
     text-align: center;
     background-color: rgb(217, 217, 222); 
     float: left;
 }
 
 .footerbox3 {
-    margin-top: 69px;
+    margin-top: 58px;
     width: 1380px;
     padding-top: 5px;
-    height: 129px;
+    height: 119px;
     text-align: center;
     background-color: rgb(217, 217, 222); 
     float: left;
@@ -273,7 +255,7 @@ p {
 a {
     text-decoration: none;
     color: black;
-    font-family: chentalle;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20pt;
 }
 
@@ -291,7 +273,7 @@ a {
 .ordermiddlebox h5 {
     margin-top: 460px;
     margin-left: 215px;
-    font-family: chentalle;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 15pt;
 }
 
@@ -380,7 +362,7 @@ a {
 
 
 .fontandsize {
-    font-family: chentalle;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 31.5px;
 }
 
@@ -392,7 +374,6 @@ a {
     margin-left: 510px;
     border-radius: 20pt;
     text-align: center;
-    padding-top: 10px;
 }
 
 .ordernowbox h6 {
@@ -450,7 +431,7 @@ a {
 }
 
 .thankyoubox h3 {
-    font-family: runners;
+    font-family: 'Times New Roman', Times, serif;
     color: black
 }
 
