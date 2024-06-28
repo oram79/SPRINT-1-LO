@@ -8,9 +8,19 @@ body {
     background-color: white;
 }
 
+@font-face {
+    font-family: chentalle;
+    src: url(../fonts/Chentalle.ttf);
+}
+
+@font-face {
+    font-family: runters;
+    src: url(../fonts/Black\ Runters.ttf);
+}
+
 .mainbox {
     width: 1390px;
-    height: 1209px; 
+    height: 1220px; 
     background-color: rgb(27, 133, 199);
     border: 5px solid black; 
     margin: 20px;
@@ -19,7 +29,7 @@ body {
   
 .menumainbox {
     width: 1390px;
-    height: 1940px; 
+    height: 2000px; 
     background-color: rgb(27, 133, 199);
     border: 5px solid black;
     margin: 20px;
@@ -28,7 +38,7 @@ body {
 
 .ordermainbox {
     width: 1390px;
-    height: 1700px; 
+    height: 1545px; 
     background-color: rgb(27, 133, 199);
     border: 5px solid black;
     margin: 20px;
@@ -68,17 +78,17 @@ body {
 
 h2 {
     font-size: 40pt;
-   
+    font-family: chentalle;
 }
 
 h3{
     font-size: 23pt;
-   
+    font-family: chentalle;
 }
 
 h4{
     font-size: 20pt;
-
+    font-family: chentalle;
 }
 
 
@@ -127,6 +137,7 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    padding-top: 5pt;
 }
 
 .bodybox {
@@ -145,8 +156,8 @@ button {
     width: 750px;
     background-color: rgb(188, 183, 183);
     border-radius: 45pt;
-    align-content: center;
-    padding-left: 20px;
+    text-align: center;
+    padding-top: 25px;
 }
 
 .infobodybox {
@@ -155,13 +166,14 @@ button {
     margin-top: 20px;
     margin-left: 315px;
     background-color: rgb(176, 220, 237);
+    text-align: center;
 }
 
 .picbox1 {
     height: 200px;
     width: 300px;
-    margin-left: 125px;
-    margin-top: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
     border-radius: 50pt;
     background-color: pink;
     float: left;
@@ -170,8 +182,8 @@ button {
 .picbox2 {
     height: 200px;
     width: 300px;
-    margin-right: 125px;
-    margin-top: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
     border-radius: 50pt;
     background-color: pink;
     float: right;
@@ -197,7 +209,19 @@ button {
 }
 
 .menubox2 {
-    height: 550px;
+    height: 530px;
+    width: 375px;
+    background-color: rgb(176, 220, 237);
+    border-radius: 20pt;
+    float: left;
+    margin-left: 70px;
+    margin-top: 30px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.menubox3 {
+    height: 610px;
     width: 375px;
     background-color: rgb(176, 220, 237);
     border-radius: 20pt;
@@ -210,11 +234,11 @@ button {
 
 .happyhourbox {
     width: 420px;
-    height: 220px;
+    height: 230px;
     border-radius: 20pt;
     background-color: rgb(217, 217, 222); 
-    margin-top: 1325px;
-    margin-left: 495px;
+    margin-top: 1360px;
+    margin-left: 490px;
     text-align: center;
 }
 
@@ -223,14 +247,15 @@ button {
 }
 
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: chentalle;
+    font-size: 10pt;
 }
 
 .footerbox1 {
     margin-top: 80px;
     width: 1380px;
     padding-top: 5px;
-    height: 119px;
+    height: 130px;
     text-align: center;
     background-color: rgb(217, 217, 222); 
     float: left;
@@ -240,17 +265,17 @@ p {
     margin-top: 80px;
     width: 1380px;
     padding-top: 5px;
-    height: 119px;
+    height: 133px;
     text-align: center;
     background-color: rgb(217, 217, 222); 
     float: left;
 }
 
 .footerbox3 {
-    margin-top: 58px;
+    margin-bottom: 50px;
     width: 1380px;
     padding-top: 5px;
-    height: 119px;
+    height: 130px;
     text-align: center;
     background-color: rgb(217, 217, 222); 
     float: left;
@@ -259,8 +284,8 @@ p {
 a {
     text-decoration: none;
     color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20pt;
+    font-family: runters;
+    font-size: 25pt;
 }
 
 .ordermiddlebox {
@@ -276,14 +301,14 @@ a {
 
 .ordermiddlebox h1 {
     margin-left: 400px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: runters;
     font-size: 20pt;
 }
 
 .ordermiddlebox h5 {
     margin-top: 460px;
     margin-left: 215px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: runters;
     font-size: 15pt;
 }
 
@@ -389,7 +414,7 @@ a {
 
 .orderinfobox {
     width: 210px;
-    height: 95px;
+    height: 100px;
     background-color: rgb(27, 133, 199);
     float: left;
     margin-left: 560px;
@@ -409,8 +434,7 @@ a {
     width: 130%;
     padding: 2px;
     font-size: 20px;
-    border: 1px solid #ccc;
-    border-radius: 20pt;
+    text-decoration: none;
 
 }
 
@@ -434,13 +458,13 @@ a {
     margin-top: 50px;
     border-radius: 20pt;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px ;
 }
 
 .thankyoubox h3 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: runters;
     color: black
 }
 
@@ -463,13 +487,13 @@ a {
 
 #random-number {
     background-color:  rgb(176, 220, 237); 
-    padding: 10px; /* Example padding */
-    text-align: center; /* Center align text */
-    border-radius: 20px; /* Rounded corners */
-    width: 300px;
+    padding: 10px; 
+    text-align: center; 
+    border-radius: 20px; 
+    width: 350px;
     height: 50px;
-    font-size: 20px;
-    margin-left: 205px;
+    font-size: 40px;
+    margin-left: 175px;
     text-decoration: overline;
     font-weight: bold;
   }
