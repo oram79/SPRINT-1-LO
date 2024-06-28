@@ -28,7 +28,7 @@ body {
 
 .ordermainbox {
     width: 1390px;
-    height: 1500px; 
+    height: 1700px; 
     background-color: rgb(27, 133, 199);
     border: 5px solid black;
     margin: 20px;
@@ -389,10 +389,11 @@ a {
 
 .orderinfobox {
     width: 210px;
-    height: 75px;
+    height: 95px;
     background-color: rgb(27, 133, 199);
     float: left;
     margin-left: 560px;
+    padding-top: 10px;
 }
 
 .orderinfobox label {
@@ -406,7 +407,7 @@ a {
 
 .orderinfobox input[type="text"] {
     width: 130%;
-    padding: 8px;
+    padding: 2px;
     font-size: 20px;
     border: 1px solid #ccc;
     border-radius: 20pt;

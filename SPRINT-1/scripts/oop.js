@@ -1,4 +1,6 @@
 
+// Script that will vailidate the users inputs when placing a order
+
 document.addEventListener("DOMContentLoaded", function () {
   console.log("DOM fully loaded and parsed.");
 
@@ -51,10 +53,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     if (isValid) {
-      showAlert("Form submitted successfully!", "success");
       setTimeout(function () {
         window.location.href = "thankyou.html";
-      }, 3000);
+      }, 1000);
     } else {
       showAlert(message, "error");
     }
