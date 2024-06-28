@@ -377,7 +377,9 @@ a {
 }
 
 .ordernowbox h6 {
-    font-size: 50pt;
+    font-size: 40pt;
+    text-align: center;
+    padding-top: 18px;
     color: black
 }
 
@@ -434,6 +436,25 @@ a {
     font-family: 'Times New Roman', Times, serif;
     color: black
 }
+
+.submit {
+    width: 175px;
+    height: 75px;
+    background-color: rgb(176, 220, 237);
+    color: black;              
+    padding: 10px 20px;        
+    border: none;          
+    cursor: pointer;        
+    font-size: 40px;          
+    border-radius: 20pt;
+    margin-left: 47px;
+    margin-top: 10px;
+  }
+
+.submit:hover {
+    background-color: rgb(145, 209, 235);
+}
+  
 
 
 
