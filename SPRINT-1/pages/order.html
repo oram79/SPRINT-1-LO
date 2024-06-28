@@ -3,146 +3,145 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jimmy Grey's Seafood - Order</title>
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/style.css" />
   </head>
   <body>
-    
-      <div class="ordermainbox">
-        <header>
-          <div class="headernav">
-            
-            <nav>
-              <button>
-                <a href="../index.html" style="font-size: 30px;">HOME</a>
-              </button>
-              <button>
-                <a href="../pages/menu.html" style="font-size: 30px;">MENU</a>
-              </button>
-              <button>
-                <a href="../pages/order.html" style="font-size: 30px;">ORDER NOW!</a>
-              </button>
-            </nav>
-          
+    <div class="ordermainbox">
+      <header>
+        <div class="headernav">
+          <nav>
+            <button>
+              <a href="../index.html" style="font-size: 30px">HOME</a>
+            </button>
+            <button>
+              <a href="../pages/menu.html" style="font-size: 30px">MENU</a>
+            </button>
+            <button>
+              <a href="../pages/order.html" style="font-size: 30px"
+                >ORDER NOW!</a
+              >
+            </button>
+          </nav>
+        </div>
+        <div class="headernavtext">
+          <h2>Jimmy Grey's Seafood</h2>
+        </div>
+        <div class="headernavlogo">
+          <img src="../images/Logo.png" alt="" height="200px" width="250px" />
+        </div>
+      </header>
+      <main>
+        <section class="ordermiddlebox">
+          <div class="orderfoodbox">
+            <input type="checkbox" class="yesornobox" />
+            <p><b>Lobster</b></p>
+            <input
+              type="text"
+              class="quantitybox"
+              id="quantity1"
+              name="quantity1"
+            />
+            <label for="quantity1">Quantity</label>
           </div>
-
-          <div class="headernavtext">
-            <h2>Jimmy Grey's Seafood</h2>
+          <div class="orderfoodbox">
+            <input type="checkbox" class="yesornobox" />
+            <p><b>Crab</b></p>
+            <input
+              type="text"
+              class="quantitybox"
+              id="quantity2"
+              name="quantity2"
+            />
+            <label for="quantity2">Quantity</label>
           </div>
-
-          <div class="headernavlogo">
-            <img src="../images/Logo.png" alt="" height="200px" width="250px">
+          <div class="orderfoodbox">
+            <input type="checkbox" class="yesornobox" />
+            <p><b>Salmon</b></p>
+            <input
+              type="text"
+              class="quantitybox"
+              id="quantity3"
+              name="quantity3"
+            />
+            <label for="quantity3">Quantity</label>
           </div>
+          <div class="orderfoodbox">
+            <input type="checkbox" class="yesornobox" />
+            <p><b>Scallops</b></p>
+            <input
+              type="text"
+              class="quantitybox"
+              id="quantity4"
+              name="quantity4"
+            />
+            <label for="quantity4">Quantity</label>
+          </div>
+          <div class="orderfoodbox">
+            <input type="checkbox" class="yesornobox" />
+            <p><b>Shrimp</b></p>
+            <input
+              type="text"
+              class="quantitybox"
+              id="quantity5"
+              name="quantity5"
+            />
+            <label for="quantity5">Quantity</label>
+          </div>
+          <div class="orderfoodbox">
+            <input type="checkbox" class="yesornobox" />
+            <p><b>Fish Sandwich</b></p>
+            <input
+              type="text"
+              class="quantitybox"
+              id="quantity6"
+              name="quantity6"
+            />
+            <label for="quantity6">Quantity</label>
+          </div>
+          <div class="orderfoodbox2">
+            <input type="checkbox" class="yesornobox" />
+            <p><b>Clam Chowder</b></p>
+            <input
+              type="text"
+              class="quantitybox"
+              id="quantity7"
+              name="quantity7"
+            />
+            <label for="quantity7">Quantity</label>
+          </div>
+        </section>
+        <div class="ordernowbox">
+          <h6>Order Now!!</h6>
+        </div>
+        <div class="orderinfobox">
+          <label for="fullName">Full Name:</label>
+          <input type="text" id="fullName" name="fullName" />
+        </div>
+        <div class="orderinfobox">
+          <label for="phoneOrEmail">Phone Or Email:</label>
+          <input type="text" id="phoneOrEmail" name="phoneOrEmail" />
+        </div>
+        <div class="orderinfobox">
+          <label for="cardNumber">Card Number:</label>
+          <input type="text" id="cardNumber" name="cardNumber" />
+        </div>
+        <form id="form1">
+          <div class="orderinfobox">
+            <input type="submit" value="Submit" class="submit" name="submit" />
+          </div>
+          <div id="alert" class="orderinfobox"></div>
+        </form>
+      </main>
 
-        </header>
-
-        <main>
-          
-          <section class="ordermiddlebox">
-            <h1>Select Items</h1>
-            <div class="orderfoodbox">
-              <input type="checkbox" class="yesornobox"/>
-              <p><b>Lobster</b></p>
-              <input type="text" class="quantitybox" id="quantity" name="quantity"/>
-              <label for="quantity">Quantity</label>
-            </div>
-
-            <div class="orderfoodbox">
-              <input type="checkbox" class="yesornobox"/>
-              <p><b>Crab</b></p>
-              <input type="text" class="quantitybox" id="quantity" name="quantity"/>
-              <label for="quantity">Quantity</label>
-            </div>
-
-            <div class="orderfoodbox">
-              <input type="checkbox" class="yesornobox"/>
-              <p><b>Salmon</b></p>
-              <input type="text" class="quantitybox" id="quantity" name="quantity"/>
-              <label for="quantity" >Quantity</label>
-            </div>
-
-            <div class="orderfoodbox">
-              <input type="checkbox" class="yesornobox"/>
-              <p><b>Scallops</b></p>
-              <input type="text" class="quantitybox" id="quantity" name="quantity"/>
-              <label for="quantity">Quantity</label>
-            </div>
-
-            <div class="orderfoodbox">
-              <input type="checkbox" class="yesornobox"/>
-              <p><b>Shrimp</b></p>
-              <input type="text" class="quantitybox" id="quantity" name="quantity"/>
-              <label for="quantity">Quantity</label>
-            </div>
-
-            <div class="orderfoodbox">
-              <input type="checkbox" class="yesornobox"/>
-              <p><b>Fish Sandwhich</b></p>
-              <input type="text" class="quantitybox" id="quantity" name="quantity"/>
-              <label for="quantity">Quantity</label>
-            </div>
-
-            <div class="orderfoodbox2">
-              <input type="checkbox" class="yesornobox"/>
-              <p><b>Clam Chowder</b></p>
-              <input type="text" class="quantitybox" id="quantity" name="quantity"/>
-              <label for="quantity">Quantity</label>
-            </div>
-            
-            
-          </section>
-
-            <div class="ordernowbox">
-              <h6>Order Now!!</h6>
-            </div>
-
-            <div class="orderinfobox">
-              <label for="username">Full Name:</label>
-              <input type="text" id="fullname" name="fullname">
-            </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div class="orderinfobox">
-              <label for="username">Phone Or Email:</label>
-              <input type="text" id="phoneoremail" name="phoneoremail">
-            </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div class="orderinfobox">
-              <label for="username">Card Number:</label>
-              <input type="text" id="cardnumber" name="cardnumber">
-            </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <form id="submit button" action="../pages/thankyou.html">
-              <div class="orderinfobox">
-                <input type="submit" value="Submit" class="submit" name="submit"/>
-              </div>
-            </form>
-          
-        </main>
-
-        <footer>
-            <div class="footerbox3">
-              <h2>Jimmy Grey's Seafood Diner</h2>
-              <a href="#top" id="top-link">Top of Page</a>
-            </div>
-        </footer>
-      </div>
-      <script src="../scripts/info.js"></script>
+      <footer>
+        <div class="footerbox3">
+          <h2>Jimmy Grey's Seafood Diner</h2>
+          <a href="#top" id="top-link">Top of Page</a>
+        </div>
+      </footer>
+    </div>
+    <script src="../scripts/oop.js"></script>
   </body>
 </html>
