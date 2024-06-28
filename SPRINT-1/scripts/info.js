@@ -1,5 +1,5 @@
 
-/// Function to allow user to be redirected to conformation page
+/// Function to allow user to be redirected to conformation page!
 
 document.addEventListener('DOMContentLoaded', function() {
     var form = document.getElementById('submit button');
