@@ -417,7 +417,7 @@ a {
     height: 100px;
     background-color: rgb(27, 133, 199);
     float: left;
-    margin-left: 560px;
+    margin-left: 550px;
     padding-top: 10px;
 }
 
@@ -438,13 +438,7 @@ a {
 
 }
 
-.orderinfobox button {
-    color: black;
-    background-color: white;
-    float: left;
-    margin-left: 35px;
-    margin-top: 20px;
-}
+
 
 .orderinfobox h2 {
     font-size: 25pt;
@@ -475,7 +469,7 @@ a {
     color: black;              
     padding: 10px 20px;  
     cursor: pointer;        
-    font-size: 40px;          
+    font-size: 25px;          
     border-radius: 20pt;
     margin-left: 47px;
     margin-top: 10px;
@@ -497,6 +491,17 @@ a {
     text-decoration: overline;
     font-weight: bold;
   }
+
+
+#alert {
+    width: 400px;
+    background-color: gb(27, 133, 199);
+    font-size: 20pt;
+    padding-right: 50px;
+    margin-right: 50px;
+    color: white;
+    font-family: runters;
+}
   
 
 

@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (isValid) {
       setTimeout(function () {
         window.location.href = "thankyou.html";
-      }, 1000);
+      }, 500);
     } else {
       showAlert(message, "error");
     }
@@ -69,6 +69,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     setTimeout(function () {
       div.remove();
-    }, 1000);
+    }, 3500);
   }
 });
