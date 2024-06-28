@@ -37,7 +37,7 @@ body {
 
 .thankyoumainbox {
     width: 1390px;
-    height: 600px; 
+    height: 700px; 
     background-color: rgb(27, 133, 199);
     border: 5px solid black;
     margin: 20px;
@@ -270,8 +270,14 @@ a {
     border-radius: 70pt;
     margin-left: 200px;
     margin-top: 50px;
-    padding-left: 50px;
+    padding-left: 25px;
     padding-top: 50px;
+}
+
+.ordermiddlebox h1 {
+    margin-left: 400px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20pt;
 }
 
 .ordermiddlebox h5 {
@@ -299,7 +305,7 @@ a {
     border-radius: 20pt;
     float: left;
     text-align: center;
-    margin-left: 270px;
+    margin-left: 275px;
     margin-top: 30px;
 }
 
@@ -420,7 +426,7 @@ a {
 }
 
 .thankyoubox {
-    height: 350px;
+    height: 450px;
     width: 750px;
     background-color: rgb(176, 220, 237);
     margin-left: 350px;
@@ -428,6 +434,8 @@ a {
     border-radius: 20pt;
     text-align: center;
     padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px ;
 }
 
 .thankyoubox h3 {
@@ -440,8 +448,7 @@ a {
     height: 75px;
     background-color: rgb(176, 220, 237);
     color: black;              
-    padding: 10px 20px;        
-    border: none;          
+    padding: 10px 20px;  
     cursor: pointer;        
     font-size: 40px;          
     border-radius: 20pt;
@@ -460,8 +467,8 @@ a {
     border-radius: 20px; /* Rounded corners */
     width: 300px;
     height: 50px;
-    font-size: 30px;
-    margin-left: 225px;
+    font-size: 20px;
+    margin-left: 205px;
     text-decoration: overline;
     font-weight: bold;
   }
